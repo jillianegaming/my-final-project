@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FINAL PROJECT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <canvas id="particles"></canvas>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <h2 class="logo">WELCOME!</h2>
+            <ul class="menu">
+                <li><a href="#" class="nav-link active" data-section="home">HOME</a></li>
+                <li><a href="#" class="nav-link" data-section="about">ABOUT</a></li>
+                <li><a href="#" class="nav-link" data-section="project">PROJECT</a></li>
+                <li><a href="#" class="nav-link" data-section="contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="section active">
+        <div class="content">
+            <h1>INFORMATION <br><span>TECNOLOGY</span><br></h1>
+            <p class="par">Hello welcome to my web page</p>
+            <button class="cn" onclick="showSection('about')">JOIN US</button>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="about-box">
+            <div class="about-img">
+                <img src="C:\Users\User\OneDrive\Documents\Final Project\main\information\8cafe452-64f2-453e-ac4a-878ae083b461.jpg" alt="About">
+            </div>
+            <div class="about-text">
+                <h2>About <span>Me</span></h2>
+                <p>I'm Jillliane Turqueza passionate of designer and developer creating modern websites.</p>
+                <button class="about-btn" onclick="showSection('contact')">Contact Us</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="project" class="section">
+        <div class="project-container">
+            <h2>My <span>Projects</span></h2>
+            <div class="project-grid">
+                <a href="C:\Users\User\OneDrive\Documents\Final Project\main\information\mypage.html" target="_blank" class="project-card">
+                    <h3>My Page 1</h3>
+                    <p>Click to open</p>
+                </a>
+                <a href="C:\Users\User\OneDrive\Documents\Final Project\main\information\mypage2.html" target="_blank" class="project-card">
+                    <h3>My Page 2</h3>
+                    <p>Click to open</p>
+                </a>
+                <a href="C:\Users\User\OneDrive\Documents\Final Project\main\information\mypage3.html" target="_blank" class="project-card">
+                    <h3>My Page 3</h3>
+                    <p>Click to open</p>
+                </a>
+                <a href="C:\Users\User\OneDrive\Documents\Final Project\main\information\mypage4.html" target="_blank" class="project-card">
+                    <h3>My Page 4</h3>
+                    <p>Click to open</p>
+                </a>
+                <a href="C:\Users\User\OneDrive\Documents\Final Project\main\information\mypage5.html" target="_blank" class="project-card">
+                    <h3>My Page 5</h3>
+                    <p>Click to open</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="center-text">
+            <h2>Contact <span>Me</span></h2>
+            <p>Email: jillianegaming1@gmail.com<br>Phone: +63 9614705690/9910200702</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
