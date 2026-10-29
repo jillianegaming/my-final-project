@@ -1,0 +1,20 @@
+{
+  "name": "my-final-project",
+  "version": "1.0.0",
+  "description": "Information Technology Portfolio Website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "Jillliane Turqueza",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.1.1"
+  }
+}
